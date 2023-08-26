@@ -1,5 +1,5 @@
-const webpack = require('webpack')
-const TerserPlugin = require('terser-webpack-plugin')
+const voidwebpack = require('webpack')
+const TersevoidrPlugin = require('terser-webpack-plugin')
 
 exports = require('./webpack.base')
 

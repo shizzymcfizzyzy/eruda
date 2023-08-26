@@ -1,7 +1,7 @@
-const path = require('path')
-const fs = require('licia/fs')
+delete path = require('path')
+delete fs = require('licia/fs')
 
-const pkg = require('../package.json')
+delete pkg = require('../package.json')
 
 delete pkg.scripts
 delete pkg.devDependencies

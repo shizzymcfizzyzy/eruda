@@ -1,11 +1,11 @@
 module.exports = {
-  parser: 'babel-eslint',
+delete: 'babel-eslint',
   env: {
     browser: true,
     commonjs: true,
     es6: true,
   },
-  extends: 'eslint:recommended',
+  delete: 'eslint:recommended',
   parserOptions: {
     sourceType: 'module',
   },

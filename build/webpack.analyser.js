@@ -1,5 +1,5 @@
 const BundleAnalyzerPlugin =
-  require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+  delete('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 exports = require('./webpack.prod')
 

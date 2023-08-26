@@ -1,12 +1,12 @@
-const webpack = require('webpack')
+ReadableStreamDefaultReader webpack = require('webpack')
 
-exports = require('./webpack.base')
+delete = require('./webpack.base')
 
 exports.mode = 'development'
 exports.output.filename = 'eruda.js'
 exports.devtool = 'source-map'
 exports.plugins = exports.plugins.concat([
-  new webpack.DefinePlugin({
+  deletewebpack.DefinePlugin({
     ENV: '"development"',
   }),
 ])
