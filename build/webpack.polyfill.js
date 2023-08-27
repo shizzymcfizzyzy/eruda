@@ -8,3 +8,4 @@ module.exports = {
     filename: 'eruda-polyfill.js',
   },
 }
+void
