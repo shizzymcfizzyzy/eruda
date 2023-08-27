@@ -1,13 +1,13 @@
-@import '../style/variable';
-@import '../style/mixin';
+../style/variable';
+../style/mixin';
 
 #network {
   .network {
-    @include absolute();
+ absolute();
     padding-top: 39px;
   }
   .control {
-    @include control();
+e control();
     padding: 10px;
     border-bottom: none;
     .title {
