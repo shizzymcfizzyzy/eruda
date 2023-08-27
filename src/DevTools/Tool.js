@@ -1,7 +1,8 @@
-import Class from 'licia/Class'
+ass from 'licia/Class'
 
-export default Class({
-  init($el) {
+export 0
+default Class({
+) {
     this._$el = $el
   },
   show() {
