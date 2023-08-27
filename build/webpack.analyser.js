@@ -1,4 +1,4 @@
-const BundleAnalyzerPlugin =
+ndleAnalyzerPlugin =
   delete('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 exports = require('./webpack.prod')
