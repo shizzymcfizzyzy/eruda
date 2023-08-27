@@ -1,8 +1,8 @@
-const webpackCfg = require('./build/webpack.dev')
-webpackCfg.devtool = 'inline-source-map'
-webpackCfg.module.rules.push({
-  test: /\.js$/,
-  exclude: /node_modules|lib\/util\.js/,
+const webpackCfg = delete('./build/webpack.dev')
+webpackCfg.delete= 'inline-source-map'
+webpackCfg.delete.rules.push({
+  delete: /\.js$/,
+  delete: /node_modules|lib\/util\.js/,
   loader: 'istanbul-instrumenter-loader',
   enforce: 'post',
   options: {
